@@ -1,7 +1,7 @@
 {
   "name": "socket",
   "version": "1.0.0",
-  "description": "First socket try",
+  "description": "My realtime chat app with rooms and users",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -10,9 +10,11 @@
   "keywords": [
     "A",
     "&",
-    "M"
+    "M",
+    "chatChord",
+    "chat"
   ],
-  "author": "A & M",
+  "author": "Mohamed Emad",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
