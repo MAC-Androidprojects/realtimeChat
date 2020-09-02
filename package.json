@@ -4,7 +4,7 @@
   "description": "My realtime chat app with rooms and users",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "node serverc",
     "dev": "nodemon server"
   },
   "keywords": [
@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.26.0",
+    "mongoose": "^5.9.25",
     "socket.io": "^1.7.3"
   },
   "devDependencies": {

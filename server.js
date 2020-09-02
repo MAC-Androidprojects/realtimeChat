@@ -10,7 +10,8 @@ const io = socketio(server);
 app.use(express.static(path.join(__dirname, 'public')))
 const formatMessage = require('./utls/messages')
 const {userJoin , getCurrentUserId , userLeave , getRoom} = require('./utls/users')
-
+const mongoose = require('mongoose')
+mongoose.connect('mongodb://127.0.0.1/chat' ,  { useNewUrlParser: true , useUnifiedTopology: true })
 
 //Connection
 io.on('connection', (socket) => {
